@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Lab6_4 : MonoBehaviour
+public class Lab6_ex5 : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
