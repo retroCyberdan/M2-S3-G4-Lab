@@ -27,7 +27,7 @@ public class ListExample : MonoBehaviour
                 int indiceMetà = numero.Count / 2;//trovo la metà della List<T>
                 numero.Insert(indiceMetà, i);//inserisco nell'indice a metà il contenuto di 'i'
             }
-            Debug.Log("Contenuto lista: " + string.Join(", ", numero));
+            Debug.Log("Contenuto lista: " + string.Join(", ", numero));//la funzione 'Join' permette di mostrare i valori della List<numero> separati dal caratter ','
             posizioneLista = (posizioneLista + 1) % 3;//utilizzo il modulo di 3 in modo tale che ogni tre numeri 'posizioneLista' viene riportata a zero
         }
     }
