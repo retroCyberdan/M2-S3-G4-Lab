@@ -36,7 +36,7 @@ public class DamageTypeExample : MonoBehaviour
             Debug.Log("Infliggerai " + baseDamage + " danni");
         }
 
-        Debug.Log(baseDamage + " inferti!");
+        Debug.Log(baseDamage + " danni inferti!");
     }
 
     // Update is called once per frame
