@@ -271,7 +271,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackType: 3
   resistance: 0
-  weakness: 3
+  weakness: 2
   baseDamage: 32
 --- !u!4 &1786178206
 Transform:

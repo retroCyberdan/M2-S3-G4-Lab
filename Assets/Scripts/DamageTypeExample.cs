@@ -26,14 +26,14 @@ public class DamageTypeExample : MonoBehaviour
         {
             baseDamage /= 2;
             Debug.Log("Il nemico è resistente a " + resistance);
-            Debug.Log("Infliggerai " + baseDamage + " danni");
+            Debug.Log("Infliggerai la metà dei danni");
         }
 
         else if (attackType == weakness)
         {
             baseDamage *= 2;
             Debug.Log("Il nemico è debole a " + weakness);
-            Debug.Log("Infliggerai " + baseDamage + " danni");
+            Debug.Log("Infliggerai il doppio dei danni");
         }
 
         Debug.Log(baseDamage + " danni inferti!");
